@@ -1,0 +1,160 @@
+/* box model */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* background color of the website */
+body {
+    background-color: #d9dcd6;
+}
+
+/* style of the header, including the navigation bar */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.seo {
+    color: #d9dcd6;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* style of the links of the navigation bar */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* style of the paragraphs */
+p {
+    font-size: 20px;
+}
+
+/* style of the background image, consisting of people in a business meeting*/
+.background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* style for the section describing the three types of services provided by the Horiseon Marketing Agency */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* services-left includes the styling and positioning for the services with images shown to the left */
+.services-left {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* services-right includes the styling and positioning for the services with images shown to the right */
+.services-right {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* services-left includes the styling and positioning for the services with images shown to the left */
+.services-left img {
+    max-height: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+/* services-right includes the styling and positioning for the services with images shown to the right */
+.services-right img {
+    max-height: 200px;
+    float: right;
+    margin-left: 25px;
+}
+
+/* services-left includes the styling and positioning for the services with images shown to the left */
+.services-left h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* services-right includes the styling and positioning for the services with images shown to the right */
+.services-right h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* style for the section describing the benefits of the services provided by the Horiseon Marketing Agency.*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* The benefit class was defined as a common ground consolidating the styling elements that were shared by the benefit-lead, benefit-brand and benefit-cost classes */
+.benefit {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.benefit img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* style for the footer section */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
